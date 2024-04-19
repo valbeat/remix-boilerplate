@@ -2,11 +2,15 @@
 
 This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and ESLint.
 
+## Usage
+
+```
+npx create-remix@latest --template valbeat/remix-tailwind-template
+```
+
 ## Preview
 
 Open this example on [CodeSandbox](https://codesandbox.com):
-
-<!-- TODO: update this link to the path for your example: -->
 
 [![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/valbeat/remix-tailwind-template/)
 
