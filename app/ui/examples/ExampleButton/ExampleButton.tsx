@@ -1,8 +1,8 @@
-import { PropsWithChildren } from 'react'
+import { PropsWithChildren } from "react";
 
 type ExampleButtonProps = {
-  onClick: () => void
-}
+  onClick: () => void;
+};
 
 export const ExampleButton = (props: PropsWithChildren<ExampleButtonProps>) => {
   return (
@@ -12,5 +12,5 @@ export const ExampleButton = (props: PropsWithChildren<ExampleButtonProps>) => {
     >
       {props.children}
     </button>
-  )
-}
+  );
+};
