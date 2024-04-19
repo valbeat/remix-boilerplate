@@ -1,6 +1,6 @@
 # Remix with Tailwind CSS Template
 
-This is a template for Remix that includes Vite, Tailwind CSS, Storybook, and ESLint.
+This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and ESLint.
 
 ## Preview
 
@@ -13,8 +13,8 @@ Open this example on [CodeSandbox](https://codesandbox.com):
 ## Related Links
 
 - [Remix](https://remix.run)
+- [Tailwind CSS](https://tailwindcss.com)
 - [Vite](https://vitejs.dev)
 - [Vitest](https://vitest.dev/)
-- [Tailwind CSS](https://tailwindcss.com)
 - [Storybook](https://storybook.js.org)
 - [ESLint](https://eslint.org)
