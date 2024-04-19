@@ -1,4 +1,4 @@
-name: Test
+name: 🧪 Test
 
 on:
   workflow_dispatch:
@@ -7,18 +7,20 @@ on:
   pull_request:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
+      - name: Corepack enable
+        run: corepack enable
       - name: ⎔ Setup node
         uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
       - name: 📥 Install
         run: pnpm i --frozen-lockfile
       - name: 🏗 Build
         run: pnpm build
-      - name: ✨ format
-        run: pnpm fmt:dry
       - name: 🧪 Unit Test
         run: pnpm test
