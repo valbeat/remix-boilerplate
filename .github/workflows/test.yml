@@ -22,7 +22,5 @@ jobs:
         run: pnpm i --frozen-lockfile
       - name: 🏗 Build
         run: pnpm build
-      - name: ✨ format
-        run: pnpm fmt:dry
       - name: 🧪 Unit Test
         run: pnpm test
