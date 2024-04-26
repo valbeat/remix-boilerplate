@@ -5,7 +5,7 @@ This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook
 ## Usage
 
 ```
-npx create-remix@latest --template valbeat/remix-tailwind-template
+npx create-remix@latest --template valbeat/remix-boilerplate
 ```
 
 ## Preview
