@@ -1,4 +1,4 @@
-# Remix with Tailwind CSS Template
+# Remix Boilerplate
 
 This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and ESLint.
 
