@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
-      - name: Corepack enable
+      - name: ⎔ Corepack enable
         run: corepack enable
       - name: ⎔ Setup node
         uses: actions/setup-node@v4
