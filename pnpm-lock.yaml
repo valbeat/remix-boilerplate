@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^2.9.1
     version: 2.9.1(@remix-run/react@2.9.1)(@remix-run/serve@2.9.1)(@types/node@20.12.8)(typescript@5.4.5)(vite@5.2.11)
   '@storybook/addon-actions':
-    specifier: ^8.0.9
-    version: 8.0.9
+    specifier: ^8.0.10
+    version: 8.0.10
   '@storybook/addon-essentials':
     specifier: ^8.0.10
     version: 8.0.10(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
@@ -2632,17 +2632,6 @@ packages:
     resolution: {integrity: sha512-IEuc30UAFl7Ws0GwaY/whjBnGaViVEVjmPc+MXUym2wwwJbnCbI+BKJxPoYi/I7QJb5aUNToAE6pl2pDda2g3Q==}
     dependencies:
       '@storybook/core-events': 8.0.10
-      '@storybook/global': 5.0.0
-      '@types/uuid': 9.0.8
-      dequal: 2.0.3
-      polished: 4.3.1
-      uuid: 9.0.1
-    dev: true
-
-  /@storybook/addon-actions@8.0.9:
-    resolution: {integrity: sha512-+I3VTvlKdj8puHeS2tyaOVv9syDiNLneVZbTfqN+UDOK2i42NwvZr8PVwjTzMlEj9eePJdCZgiipz55xwts5bw==}
-    dependencies:
-      '@storybook/core-events': 8.0.9
       '@storybook/global': 5.0.0
       '@types/uuid': 9.0.8
       dequal: 2.0.3
