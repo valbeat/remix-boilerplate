@@ -4,8 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
+    "check": "biome check .",
     "dev": "remix vite:dev",
-    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "lint": "biome lint --apply .",
     "lint-staged": "lint-staged",
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc --pretty --noEmit",
@@ -15,12 +16,11 @@
     "test:ci": "vitest run",
     "test:update": "vitest --update",
     "test:coverage": "vitest run --coverage",
-    "format": "prettier --cache --write ."
+    "format": "biome format --write ."
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint --fix --cache",
-      "prettier --cache --write"
+      "biome check --apply ."
     ],
     "*.{png,jpeg,jpg,webp,avif}": []
   },

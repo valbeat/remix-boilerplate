@@ -21,7 +21,7 @@ jobs:
       - name: 📥 Install
         run: pnpm i --frozen-lockfile
       - name: 🧹 Lint
-        run: pnpm lint && pnpm format --check && pnpm typecheck
+        run: pnpm check && pnpm typecheck
       - name: 🏗 Build
         run: pnpm build
       - name: 🧪 Unit Test
