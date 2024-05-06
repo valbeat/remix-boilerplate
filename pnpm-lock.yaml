@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^8.0.9
     version: 8.0.9(react@18.3.1)
   '@storybook/addon-mdx-gfm':
-    specifier: ^8.0.9
-    version: 8.0.9
+    specifier: ^8.0.10
+    version: 8.0.10
   '@storybook/addon-onboarding':
     specifier: ^8.0.9
     version: 8.0.9
@@ -2687,10 +2687,10 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-mdx-gfm@8.0.9:
-    resolution: {integrity: sha512-AoEx+OGKANtVZgKyWKrQhGpMpDuc2S7PnOlNLUiDYzmj8ABAGPmEJmqeb/VHVgqLQSjhOW1fMsQ4fYsecvMxTQ==}
+  /@storybook/addon-mdx-gfm@8.0.10:
+    resolution: {integrity: sha512-o9dwt38fEfCWJTioVVqVWOc64sD5tGhHkPJH6UyYQfQdy0fa1KRhCu7x7pMZedWDZ6K5z+0WUw5m4XC6FVpe2g==}
     dependencies:
-      '@storybook/node-logger': 8.0.9
+      '@storybook/node-logger': 8.0.10
       remark-gfm: 4.0.0
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -3144,6 +3144,10 @@ packages:
 
   /@storybook/manager@8.0.9:
     resolution: {integrity: sha512-+NnRo+5JQFGNqveKrLtC0b+Z08Tae4m44iq292bPeZMpr9OkFsIkU0PBPsHTHPkrqC/zZXRNsCsTEgvu3p2OIA==}
+    dev: true
+
+  /@storybook/node-logger@8.0.10:
+    resolution: {integrity: sha512-UMmaUaA3VOX/mKLsSvOnbZre2/1tZ6hazA6H0eAnClKb51jRD1AJrsBYK+uHr/CAp7t710bB5U8apPov7hayDw==}
     dev: true
 
   /@storybook/node-logger@8.0.9:
