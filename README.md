@@ -1,6 +1,6 @@
 # Remix Boilerplate
 
-This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and ESLint.
+This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and Biome.
 
 ## Usage
 
@@ -21,4 +21,3 @@ Open this example on CodeSandbox:
 - [Vite](https://vitejs.dev)
 - [Vitest](https://vitest.dev/)
 - [Storybook](https://storybook.js.org)
-- [ESLint](https://eslint.org)
