@@ -4,6 +4,7 @@ exports[`renders correctly 1`] = `
 <DocumentFragment>
   <button
     class="bg-blue-500 text-white font-bold py-2 px-4 rounded"
+    type="button"
   >
     Example Button
   </button>

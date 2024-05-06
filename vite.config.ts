@@ -6,13 +6,13 @@ import tsconfigPaths from "vite-tsconfig-paths";
 installGlobals();
 
 export default defineConfig({
-  plugins: [
-    remix({
-      ignoredRouteFiles: [
-        "**/*.css",
-        "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
-      ],
-    }),
-    tsconfigPaths(),
-  ],
+	plugins: [
+		remix({
+			ignoredRouteFiles: [
+				"**/*.css",
+				"**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+			],
+		}),
+		tsconfigPaths(),
+	],
 });
