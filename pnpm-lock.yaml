@@ -110,8 +110,8 @@ devDependencies:
     specifier: ^8.4.38
     version: 8.4.38
   storybook:
-    specifier: ^8.0.9
-    version: 8.0.9(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^8.0.10
+    version: 8.0.10(react-dom@18.3.1)(react@18.3.1)
   tailwindcss:
     specifier: ^3.4.3
     version: 3.4.3
@@ -2875,13 +2875,13 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-manager@8.0.9:
-    resolution: {integrity: sha512-/PxDwZIfMc/PSRZcasb6SIdGr3azIlenzx7dBF7Imt8i4jLHiAf1t00GvghlfJsvsrn4DNp95rbRbXTDyTj7tQ==}
+  /@storybook/builder-manager@8.0.10:
+    resolution: {integrity: sha512-lo57jeeYuYCKYrmGOdLg25rMyiGYSTwJ+zYsQ3RvClVICjP6X0I1RCKAJDzkI0BixH6s1+w5ynD6X3PtDnhUuw==}
     dependencies:
       '@fal-works/esbuild-plugin-global-externals': 2.1.2
-      '@storybook/core-common': 8.0.9
-      '@storybook/manager': 8.0.9
-      '@storybook/node-logger': 8.0.9
+      '@storybook/core-common': 8.0.10
+      '@storybook/manager': 8.0.10
+      '@storybook/node-logger': 8.0.10
       '@types/ejs': 3.1.5
       '@yarnpkg/esbuild-plugin-pnp': 3.0.0-rc.15(esbuild@0.20.2)
       browser-assert: 1.2.1
@@ -2956,21 +2956,21 @@ packages:
       tiny-invariant: 1.3.3
     dev: true
 
-  /@storybook/cli@8.0.9(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-lilYTKn8F5YOePijqfRYFa5v2mHVIJxPCIgTn+OXAmAFbcizZ6P8P6niU4J/NXulgx68Ln1M7hYhFtTP25hVTw==}
+  /@storybook/cli@8.0.10(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-KUZEO2lyvOS2sRJEFXovt6+5b65iWsh7F8e8S1cM20fCM1rZAlWtwmoxmDVXDmyEp0wTrq4FrRxKnbo9UO518w==}
     hasBin: true
     dependencies:
       '@babel/core': 7.24.4
       '@babel/types': 7.24.0
       '@ndelangen/get-tarball': 3.0.9
-      '@storybook/codemod': 8.0.9
-      '@storybook/core-common': 8.0.9
-      '@storybook/core-events': 8.0.9
-      '@storybook/core-server': 8.0.9(react-dom@18.3.1)(react@18.3.1)
-      '@storybook/csf-tools': 8.0.9
-      '@storybook/node-logger': 8.0.9
-      '@storybook/telemetry': 8.0.9
-      '@storybook/types': 8.0.9
+      '@storybook/codemod': 8.0.10
+      '@storybook/core-common': 8.0.10
+      '@storybook/core-events': 8.0.10
+      '@storybook/core-server': 8.0.10(react-dom@18.3.1)(react@18.3.1)
+      '@storybook/csf-tools': 8.0.10
+      '@storybook/node-logger': 8.0.10
+      '@storybook/telemetry': 8.0.10
+      '@storybook/types': 8.0.10
       '@types/semver': 7.5.8
       '@yarnpkg/fslib': 2.10.3
       '@yarnpkg/libzip': 2.3.0
@@ -3018,16 +3018,16 @@ packages:
       '@storybook/global': 5.0.0
     dev: true
 
-  /@storybook/codemod@8.0.9:
-    resolution: {integrity: sha512-VBeGpSZSQpL6iyLLqceJSNGhdCqcNwv+xC/aWdDFOkmuE1YfbmNNwpa9QYv4ZFJ2QjUsm4iTWG60qK+9NXeSKA==}
+  /@storybook/codemod@8.0.10:
+    resolution: {integrity: sha512-t45jKGs/eyR/nKVX6QgRtMZSAjJo5aXWWk3B24xVbW6ywr0jt1LC100FkHG4Af8cApIfh8uUmS9X05hMG5zGGA==}
     dependencies:
       '@babel/core': 7.24.4
       '@babel/preset-env': 7.24.4(@babel/core@7.24.4)
       '@babel/types': 7.24.0
       '@storybook/csf': 0.1.5
-      '@storybook/csf-tools': 8.0.9
-      '@storybook/node-logger': 8.0.9
-      '@storybook/types': 8.0.9
+      '@storybook/csf-tools': 8.0.10
+      '@storybook/node-logger': 8.0.10
+      '@storybook/types': 8.0.10
       '@types/cross-spawn': 6.0.6
       cross-spawn: 7.0.3
       globby: 11.1.0
@@ -3166,26 +3166,26 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/core-server@8.0.9(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-BIe1T5YUBl0GYxEjRoTQsvXD2pyuzL8rPTUD41zlzSQM0R8U6Iant9SzRms4u0+rKUm2mGxxKuODlUo5ewqaGA==}
+  /@storybook/core-server@8.0.10(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-HYDw2QFBxg1X/d6g0rUhirOB5Jq6g90HBnyrZzxKoqKWJCNsCADSgM+h9HgtUw0jA97qBpIqmNO9n3mXFPWU/Q==}
     dependencies:
       '@aw-web-design/x-default-browser': 1.4.126
       '@babel/core': 7.24.4
       '@discoveryjs/json-ext': 0.5.7
-      '@storybook/builder-manager': 8.0.9
-      '@storybook/channels': 8.0.9
-      '@storybook/core-common': 8.0.9
-      '@storybook/core-events': 8.0.9
+      '@storybook/builder-manager': 8.0.10
+      '@storybook/channels': 8.0.10
+      '@storybook/core-common': 8.0.10
+      '@storybook/core-events': 8.0.10
       '@storybook/csf': 0.1.5
-      '@storybook/csf-tools': 8.0.9
+      '@storybook/csf-tools': 8.0.10
       '@storybook/docs-mdx': 3.0.0
       '@storybook/global': 5.0.0
-      '@storybook/manager': 8.0.9
-      '@storybook/manager-api': 8.0.9(react-dom@18.3.1)(react@18.3.1)
-      '@storybook/node-logger': 8.0.9
-      '@storybook/preview-api': 8.0.9
-      '@storybook/telemetry': 8.0.9
-      '@storybook/types': 8.0.9
+      '@storybook/manager': 8.0.10
+      '@storybook/manager-api': 8.0.10(react-dom@18.3.1)(react@18.3.1)
+      '@storybook/node-logger': 8.0.10
+      '@storybook/preview-api': 8.0.10
+      '@storybook/telemetry': 8.0.10
+      '@storybook/types': 8.0.10
       '@types/detect-port': 1.3.5
       '@types/node': 18.19.31
       '@types/pretty-hrtime': 1.0.3
@@ -3377,8 +3377,8 @@ packages:
       - react-dom
     dev: true
 
-  /@storybook/manager@8.0.9:
-    resolution: {integrity: sha512-+NnRo+5JQFGNqveKrLtC0b+Z08Tae4m44iq292bPeZMpr9OkFsIkU0PBPsHTHPkrqC/zZXRNsCsTEgvu3p2OIA==}
+  /@storybook/manager@8.0.10:
+    resolution: {integrity: sha512-bojGglUQNry48L4siURc2zQKswavLzMh69rqsfL3ZXx+i+USfRfB7593azTlaZh0q6HO4bUAjB24RfQCyifLLQ==}
     dev: true
 
   /@storybook/node-logger@8.0.10:
@@ -3527,12 +3527,12 @@ packages:
       qs: 6.12.1
     dev: true
 
-  /@storybook/telemetry@8.0.9:
-    resolution: {integrity: sha512-AGGfcup06t+wxhBIkHd0iybieOh9PDVZQJ9oPct5JGB39+ni9wvs0WOD+MYlHbsjp8id7+aGkh6mYuYOvfck+Q==}
+  /@storybook/telemetry@8.0.10:
+    resolution: {integrity: sha512-s4Uc+KZQkdmD2d+64Qf8wYknhQZwmjf2CxjIjv9b4KLsU/nyfDheK7Fzd1jhBKb2UQUlLW5HhZkBgs1RsZcDHA==}
     dependencies:
-      '@storybook/client-logger': 8.0.9
-      '@storybook/core-common': 8.0.9
-      '@storybook/csf-tools': 8.0.9
+      '@storybook/client-logger': 8.0.10
+      '@storybook/core-common': 8.0.10
+      '@storybook/csf-tools': 8.0.10
       chalk: 4.1.2
       detect-package-manager: 2.0.1
       fetch-retry: 5.0.6
@@ -9697,11 +9697,11 @@ packages:
     resolution: {integrity: sha512-4QcZ+yx7nzEFiV4BMLnr/pRa5HYzNITX2ri0Zh6sT9EyQHbBHacC6YigllUPU9X3D0f/22QCgfokpKs52YRrUg==}
     dev: true
 
-  /storybook@8.0.9(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-/Mvij0Br5bUwJpCvqAUZMEDIWmdRxEyllvVj8Ukw5lIWJePxfpSsz4px5jg9+R6B9tO8sQSqjg4HJvQ/pZk8Tg==}
+  /storybook@8.0.10(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-9/4oxISopLyr5xz7Du27mmQgcIfB7UTLlNzkK4IklWTiSgsOgYgZpsmIwymoXNtkrvh+QsqskdcUP1C7nNiEtw==}
     hasBin: true
     dependencies:
-      '@storybook/cli': 8.0.9(react-dom@18.3.1)(react@18.3.1)
+      '@storybook/cli': 8.0.10(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@babel/preset-env'
       - bufferutil
