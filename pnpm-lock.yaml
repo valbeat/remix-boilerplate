@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^6.4.3
     version: 6.4.5(vitest@1.5.2)
   '@testing-library/react':
-    specifier: 15.0.6
-    version: 15.0.6(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 15.0.7
+    version: 15.0.7(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
   '@types/node':
     specifier: ^20.12.10
     version: 20.12.10
@@ -3650,8 +3650,8 @@ packages:
       vitest: 1.5.2(@types/node@20.12.10)(@vitest/ui@1.5.2)(happy-dom@14.10.1)
     dev: true
 
-  /@testing-library/react@15.0.6(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-UlbazRtEpQClFOiYp+1BapMT+xyqWMnE+hh9tn5DQ6gmlE7AIZWcGpzZukmDZuFk3By01oiqOf8lRedLS4k6xQ==}
+  /@testing-library/react@15.0.7(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-cg0RvEdD1TIhhkm1IeYMQxrzy0MtUNfa3minv4MjbgcYzJAZ7yD0i0lwoPOTPr+INtiXFezt2o8xMSnyHhEn2Q==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
