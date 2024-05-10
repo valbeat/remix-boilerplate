@@ -7,17 +7,14 @@
 		"check": "biome check .",
 		"check:apply": "biome check --apply .",
 		"dev": "remix vite:dev",
-		"lint": "biome lint --apply .",
-		"lint-staged": "lint-staged",
 		"start": "remix-serve ./build/server/index.js",
-		"typecheck": "tsc --pretty --noEmit",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build",
+		"storybook:build": "storybook build",
 		"test": "vitest",
 		"test:ci": "vitest run",
 		"test:update": "vitest --update",
 		"test:coverage": "vitest run --coverage",
-		"format": "biome format --write ."
+		"typecheck": "tsc --pretty --noEmit"
 	},
 	"dependencies": {
 		"@remix-run/node": "^2.9.1",
