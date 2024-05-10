@@ -1,0 +1,6 @@
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      glob: "*.{json,js,ts,jsx,tsx}"
+      run: pnpm check
