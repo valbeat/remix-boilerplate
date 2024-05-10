@@ -21,3 +21,5 @@ Open this example on CodeSandbox:
 - [Vite](https://vitejs.dev)
 - [Vitest](https://vitest.dev/)
 - [Storybook](https://storybook.js.org)
+- [Biome](https://biomejs.dev/)
+- [Lefthook](https://github.com/evilmartians/lefthook)
