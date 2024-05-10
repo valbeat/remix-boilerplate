@@ -18,5 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           cache: "pnpm"
+      - name: 📥 Install
+        run: pnpm i --frozen-lockfile
       - name: Init
         run: npx remix init
