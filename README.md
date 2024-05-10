@@ -1,5 +1,7 @@
 # Remix Boilerplate
 
+[![🧪 Test](https://github.com/valbeat/remix-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/valbeat/remix-boilerplate/actions/workflows/test.yml)
+
 This is a template for Remix that includes Tailwind CSS, Vite, Vitest, Storybook, and Biome.
 
 ## Usage
