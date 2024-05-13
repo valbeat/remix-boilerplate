@@ -30,12 +30,12 @@ Open this example on CodeSandbox:
 
 - First run this stack's `remix.init` script.
 
-  ```sh
-  npx remix init
-  ```
+```sh
+npx remix init
+```
 
 - Run the Vite dev server:
 
-    ```sh
-    pnpm run dev
-    ```
+```sh
+pnpm run dev
+```
