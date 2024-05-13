@@ -28,13 +28,13 @@ Open this example on CodeSandbox:
 
 ## Development
 
-- First run this stack's `remix.init` script.
+First run this stack's `remix.init` script.
 
 ```sh
 npx remix init
 ```
 
-- Run the Vite dev server:
+Run the Vite dev server:
 
 ```sh
 pnpm run dev
