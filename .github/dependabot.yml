@@ -13,4 +13,4 @@ updates:
       remix:
         applies-to: version-updates
         patterns:
-        - "@remix-run*"
+        - "@remix-run/*"
