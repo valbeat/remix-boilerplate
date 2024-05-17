@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^8.1.1
     version: 8.1.1(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(typescript@5.4.5)(vite@5.2.11)
   '@storybook/test':
-    specifier: ^8.0.10
-    version: 8.0.10(vitest@1.5.2)
+    specifier: ^8.1.1
+    version: 8.1.1(vitest@1.5.2)
   '@testing-library/jest-dom':
     specifier: ^6.4.3
     version: 6.4.5(vitest@1.5.2)
@@ -2314,7 +2314,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       '@types/react': 18.3.2
       react: 18.3.1
     dev: true
@@ -2328,7 +2328,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.3.2)(react@18.3.1)
       '@types/react': 18.3.2
       react: 18.3.1
@@ -3052,7 +3052,7 @@ packages:
       '@babel/core': 7.24.5
       '@babel/preset-env': 7.24.4(@babel/core@7.24.5)
       '@babel/types': 7.24.5
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.7
       '@storybook/csf-tools': 8.0.10
       '@storybook/node-logger': 8.0.10
       '@storybook/types': 8.0.10
@@ -3191,7 +3191,7 @@ packages:
       '@storybook/channels': 8.0.10
       '@storybook/core-common': 8.0.10
       '@storybook/core-events': 8.0.10
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.7
       '@storybook/csf-tools': 8.0.10
       '@storybook/docs-mdx': 3.0.0
       '@storybook/global': 5.0.0
@@ -3261,7 +3261,7 @@ packages:
       '@babel/parser': 7.24.5
       '@babel/traverse': 7.24.5
       '@babel/types': 7.24.5
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.7
       '@storybook/types': 8.0.10
       fs-extra: 11.2.0
       recast: 0.23.6
@@ -3358,6 +3358,18 @@ packages:
       '@storybook/core-events': 8.0.10
       '@storybook/global': 5.0.0
       '@storybook/preview-api': 8.0.10
+      '@vitest/utils': 1.5.2
+      util: 0.12.5
+    dev: true
+
+  /@storybook/instrumenter@8.1.1:
+    resolution: {integrity: sha512-8OJCEt0/KXCxT0B8uIQgR3aEmlW8iW5CK1qZxZUEvMDUb7agpKdthLfiN8+M3maq59PmOhq9h43iUTRZxKFVpw==}
+    dependencies:
+      '@storybook/channels': 8.1.1
+      '@storybook/client-logger': 8.1.1
+      '@storybook/core-events': 8.1.1
+      '@storybook/global': 5.0.0
+      '@storybook/preview-api': 8.1.1
       '@vitest/utils': 1.5.2
       util: 0.12.5
     dev: true
@@ -3617,6 +3629,27 @@ packages:
       - vitest
     dev: true
 
+  /@storybook/test@8.1.1(vitest@1.5.2):
+    resolution: {integrity: sha512-JIFgfTINM8TJvfyy/aH1WfIgkGVZIesntDYTcY40ukE6ZPaM98YFrSD5E4D3b0vPFEIU0QJ2xVbOGIAVX/6hBw==}
+    dependencies:
+      '@storybook/client-logger': 8.1.1
+      '@storybook/core-events': 8.1.1
+      '@storybook/instrumenter': 8.1.1
+      '@storybook/preview-api': 8.1.1
+      '@testing-library/dom': 9.3.4
+      '@testing-library/jest-dom': 6.4.5(vitest@1.5.2)
+      '@testing-library/user-event': 14.5.2(@testing-library/dom@9.3.4)
+      '@vitest/expect': 1.3.1
+      '@vitest/spy': 1.5.2
+      util: 0.12.5
+    transitivePeerDependencies:
+      - '@jest/globals'
+      - '@types/bun'
+      - '@types/jest'
+      - jest
+      - vitest
+    dev: true
+
   /@storybook/theming@8.0.10(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-7NHt7bMC7lPkwz9KdDpa6DkLoQZz5OV6jsx/qY91kcdLo1rpnRPAiVlJvmWesFxi1oXOpVDpHHllWzf8KDBv8A==}
     peerDependencies:
@@ -3796,7 +3829,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@babel/code-frame': 7.24.2
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       '@types/aria-query': 5.0.4
       aria-query: 5.1.3
       chalk: 4.1.2
