@@ -14,3 +14,7 @@ updates:
         applies-to: version-updates
         patterns:
         - "@remix-run/*"
+      storybook:
+        applies-to: version-updates
+        patterns:
+        - "@storybook/*"
