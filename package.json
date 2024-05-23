@@ -43,7 +43,7 @@
 		"@types/node": "^20.12.12",
 		"@types/react": "^18.3.2",
 		"@types/react-dom": "^18.3.0",
-		"@vitejs/plugin-react-swc": "^3.6.0",
+		"@vitejs/plugin-react-swc": "^3.7.0",
 		"@vitest/coverage-v8": "^1.5.2",
 		"@vitest/ui": "^1.5.2",
 		"autoprefixer": "^10.4.19",
