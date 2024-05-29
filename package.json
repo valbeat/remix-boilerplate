@@ -47,7 +47,7 @@
 		"@vitest/coverage-v8": "^1.5.2",
 		"@vitest/ui": "^1.5.2",
 		"autoprefixer": "^10.4.19",
-		"happy-dom": "^14.11.0",
+		"happy-dom": "^14.11.2",
 		"lefthook": "^1.6.13",
 		"postcss": "^8.4.38",
 		"storybook": "^8.1.3",
