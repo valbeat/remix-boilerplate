@@ -18,12 +18,10 @@ jobs:
           git config --global user.email "kj1ktk@gmail.com"
           git config --global user.name "Takuma Kajikawa"
       - name: Auto-approve Dependabot PRs
-        if: github.actor == 'dependabot[bot]'
         run: gh pr review ${{ github.event.check_suite.pull_requests[0].number }} --approve
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Merge Dependabot PRs
-        if: github.actor == 'dependabot[bot]'
         run: gh pr merge ${{ github.event.check_suite.pull_requests[0].number }} --merge --admin
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
