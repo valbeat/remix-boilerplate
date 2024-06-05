@@ -1,6 +1,7 @@
-name: Auto Merge Dependabot PRs
+name: 🤖 Auto Merge Dependabot PRs
 
 on:
+  workflow_dispatch:
   check_suite:
     types:
       - completed
