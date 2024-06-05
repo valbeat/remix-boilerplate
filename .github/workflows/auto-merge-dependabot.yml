@@ -5,7 +5,7 @@ on:
   workflow_run:
     workflows: [🏁 Init,🧪 Test]
     types: [completed]
-    branches: ['dependabot/**']
+    branches: ['!main']
 
 jobs:
   auto-merge:
