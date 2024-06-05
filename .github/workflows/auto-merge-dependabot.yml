@@ -2,14 +2,13 @@ name: 🤖 Auto Merge Dependabot PRs
 
 on:
   workflow_dispatch:
-  check_suite:
-    types:
-      - completed
+  workflow_run:
+    workflows: [🏁 Init,🧪 Test]
+    types: [completed]
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    if: ${{ github.event.check_suite.conclusion == 'success' }}
 
     steps:
       - name: ⬇️ Checkout repo
