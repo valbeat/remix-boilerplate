@@ -31,8 +31,8 @@ importers:
         specifier: 1.8.3
         version: 1.8.3
       '@chromatic-com/storybook':
-        specifier: ^1.6.1
-        version: 1.6.1(react@18.3.1)
+        specifier: ^1.7.0
+        version: 1.7.0(react@18.3.1)
       '@remix-run/dev':
         specifier: ^2.11.2
         version: 2.11.2(@remix-run/react@2.11.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.11.2(typescript@5.5.4))(@types/node@22.4.1)(typescript@5.5.4)(vite@5.4.2(@types/node@22.4.1))
@@ -827,8 +827,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@chromatic-com/storybook@1.6.1':
-    resolution: {integrity: sha512-x1x1NB3j4xpfeSWKr96emc+7ZvfsvH+/WVb3XCjkB24PPbT8VZXb3mJSAQMrSzuQ8+eQE9kDogYHH9Fj3tb/Cw==}
+  '@chromatic-com/storybook@1.7.0':
+    resolution: {integrity: sha512-0aAkSaNsHaJL37/r+TIbpKjCouIysvoJno61LzUSs1xW4fpxF7gdr8xwIOONQjEsz2Fa0uFHXmzkFYcH6o8kmA==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
 
   '@emotion/hash@0.9.2':
@@ -5734,7 +5734,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.8.3':
     optional: true
 
-  '@chromatic-com/storybook@1.6.1(react@18.3.1)':
+  '@chromatic-com/storybook@1.7.0(react@18.3.1)':
     dependencies:
       chromatic: 11.5.1
       filesize: 10.1.1
