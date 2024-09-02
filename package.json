@@ -41,7 +41,7 @@
 		"@testing-library/jest-dom": "^6.4.8",
 		"@testing-library/react": "16.0.0",
 		"@types/node": "^22.5.1",
-		"@types/react": "^18.3.4",
+		"@types/react": "^18.3.5",
 		"@types/react-dom": "^18.3.0",
 		"@vitejs/plugin-react-swc": "^3.7.0",
 		"@vitest/coverage-v8": "^1.5.2",
