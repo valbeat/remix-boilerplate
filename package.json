@@ -38,7 +38,7 @@
 		"@storybook/react": "^8.3.5",
 		"@storybook/react-vite": "^8.3.5",
 		"@storybook/test": "^8.3.5",
-		"@testing-library/jest-dom": "^6.5.0",
+		"@testing-library/jest-dom": "^6.6.1",
 		"@testing-library/react": "16.0.1",
 		"@types/node": "^22.7.5",
 		"@types/react": "^18.3.11",
