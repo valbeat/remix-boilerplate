@@ -17,9 +17,9 @@
 		"typecheck": "tsc --pretty --noEmit"
 	},
 	"dependencies": {
-		"@remix-run/node": "^2.13.1",
-		"@remix-run/react": "^2.13.1",
-		"@remix-run/serve": "^2.13.1",
+		"@remix-run/node": "^2.15.2",
+		"@remix-run/react": "^2.15.2",
+		"@remix-run/serve": "^2.15.2",
 		"isbot": "^5.1.17",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
@@ -27,7 +27,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@chromatic-com/storybook": "^2.0.2",
-		"@remix-run/dev": "^2.13.1",
+		"@remix-run/dev": "^2.15.2",
 		"@storybook/addon-actions": "^8.3.5",
 		"@storybook/addon-essentials": "^8.3.5",
 		"@storybook/addon-interactions": "^8.3.5",
