@@ -10,6 +10,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
       - name: 📦 Install pnpm
         uses: pnpm/action-setup@v4
       - name: 🔧 Setup Node.js
