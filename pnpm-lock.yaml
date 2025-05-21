@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@remix-run/node':
         specifier: ^2.15.2
-        version: 2.15.2(typescript@5.7.3)
+        version: 2.15.2(typescript@5.8.3)
       '@remix-run/react':
         specifier: ^2.15.2
-        version: 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
       '@remix-run/serve':
         specifier: ^2.15.2
-        version: 2.15.2(typescript@5.7.3)
+        version: 2.15.2(typescript@5.8.3)
       isbot:
         specifier: ^5.1.21
         version: 5.1.21
@@ -35,7 +35,7 @@ importers:
         version: 3.2.6(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))
       '@remix-run/dev':
         specifier: ^2.15.2
-        version: 2.15.2(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/serve@2.15.2(typescript@5.7.3))(@types/node@22.13.1)(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))
+        version: 2.15.2(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.15.2(typescript@5.8.3))(@types/node@22.13.1)(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))
       '@storybook/addon-actions':
         specifier: ^8.5.0
         version: 8.5.0(storybook@8.5.0(prettier@2.8.8))
@@ -59,10 +59,10 @@ importers:
         version: 8.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))
       '@storybook/react':
         specifier: ^8.5.0
-        version: 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.7.3)
+        version: 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.8.3)
       '@storybook/react-vite':
         specifier: ^8.5.0
-        version: 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.40.2)(storybook@8.5.0(prettier@2.8.8))(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))
+        version: 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.40.2)(storybook@8.5.0(prettier@2.8.8))(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))
       '@storybook/test':
         specifier: ^8.5.0
         version: 8.5.0(storybook@8.5.0(prettier@2.8.8))
@@ -109,14 +109,14 @@ importers:
         specifier: ^3.4.14
         version: 3.4.14
       typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
+        specifier: ^5.8.3
+        version: 5.8.3
       vite:
         specifier: ^5.4.19
         version: 5.4.19(@types/node@22.13.1)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))
+        version: 5.1.4(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))
       vitest:
         specifier: ^1.6.1
         version: 1.6.1(@types/node@22.13.1)(@vitest/ui@1.5.2)(happy-dom@17.4.6)
@@ -3918,8 +3918,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4770,13 +4770,13 @@ snapshots:
     dependencies:
       '@sinclair/typebox': 0.27.8
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.4.2(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.4.2(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))':
     dependencies:
       magic-string: 0.27.0
-      react-docgen-typescript: 2.2.2(typescript@5.7.3)
+      react-docgen-typescript: 2.2.2(typescript@5.8.3)
       vite: 5.4.19(@types/node@22.13.1)
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -4881,7 +4881,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.25': {}
 
-  '@remix-run/dev@2.15.2(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/serve@2.15.2(typescript@5.7.3))(@types/node@22.13.1)(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))':
+  '@remix-run/dev@2.15.2(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.15.2(typescript@5.8.3))(@types/node@22.13.1)(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.3
@@ -4893,10 +4893,10 @@ snapshots:
       '@babel/types': 7.26.3
       '@mdx-js/mdx': 2.3.0
       '@npmcli/package-json': 4.0.1
-      '@remix-run/node': 2.15.2(typescript@5.7.3)
-      '@remix-run/react': 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+      '@remix-run/node': 2.15.2(typescript@5.8.3)
+      '@remix-run/react': 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
       '@remix-run/router': 1.21.0
-      '@remix-run/server-runtime': 2.15.2(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.15.2(typescript@5.8.3)
       '@types/mdx': 2.0.13
       '@vanilla-extract/integration': 6.5.0(@types/node@22.13.1)
       arg: 5.0.2
@@ -4936,12 +4936,12 @@ snapshots:
       set-cookie-parser: 2.7.1
       tar-fs: 2.1.2
       tsconfig-paths: 4.2.0
-      valibot: 0.41.0(typescript@5.7.3)
+      valibot: 0.41.0(typescript@5.8.3)
       vite-node: 1.6.0(@types/node@22.13.1)
       ws: 7.5.10
     optionalDependencies:
-      '@remix-run/serve': 2.15.2(typescript@5.7.3)
-      typescript: 5.7.3
+      '@remix-run/serve': 2.15.2(typescript@5.8.3)
+      typescript: 5.8.3
       vite: 5.4.19(@types/node@22.13.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -4959,16 +4959,16 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/express@2.15.2(express@4.21.2)(typescript@5.7.3)':
+  '@remix-run/express@2.15.2(express@4.21.2)(typescript@5.8.3)':
     dependencies:
-      '@remix-run/node': 2.15.2(typescript@5.7.3)
+      '@remix-run/node': 2.15.2(typescript@5.8.3)
       express: 4.21.2
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
-  '@remix-run/node@2.15.2(typescript@5.7.3)':
+  '@remix-run/node@2.15.2(typescript@5.8.3)':
     dependencies:
-      '@remix-run/server-runtime': 2.15.2(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.15.2(typescript@5.8.3)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -4976,26 +4976,26 @@ snapshots:
       stream-slice: 0.1.2
       undici: 6.21.3
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
-  '@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
+  '@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)':
     dependencies:
       '@remix-run/router': 1.21.0
-      '@remix-run/server-runtime': 2.15.2(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.15.2(typescript@5.8.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-router: 6.28.1(react@18.3.1)
       react-router-dom: 6.28.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   '@remix-run/router@1.21.0': {}
 
-  '@remix-run/serve@2.15.2(typescript@5.7.3)':
+  '@remix-run/serve@2.15.2(typescript@5.8.3)':
     dependencies:
-      '@remix-run/express': 2.15.2(express@4.21.2)(typescript@5.7.3)
-      '@remix-run/node': 2.15.2(typescript@5.7.3)
+      '@remix-run/express': 2.15.2(express@4.21.2)(typescript@5.8.3)
+      '@remix-run/node': 2.15.2(typescript@5.8.3)
       chokidar: 3.6.0
       compression: 1.7.5
       express: 4.21.2
@@ -5006,7 +5006,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@remix-run/server-runtime@2.15.2(typescript@5.7.3)':
+  '@remix-run/server-runtime@2.15.2(typescript@5.8.3)':
     dependencies:
       '@remix-run/router': 1.21.0
       '@types/cookie': 0.6.0
@@ -5016,7 +5016,7 @@ snapshots:
       source-map: 0.7.4
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   '@remix-run/web-blob@3.1.0':
     dependencies:
@@ -5302,12 +5302,12 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.5.0(prettier@2.8.8)
 
-  '@storybook/react-vite@8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.40.2)(storybook@8.5.0(prettier@2.8.8))(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))':
+  '@storybook/react-vite@8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.40.2)(storybook@8.5.0(prettier@2.8.8))(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.4.2(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.4.2(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1))
       '@rollup/pluginutils': 5.1.4(rollup@4.40.2)
       '@storybook/builder-vite': 8.5.0(storybook@8.5.0(prettier@2.8.8))(vite@5.4.19(@types/node@22.13.1))
-      '@storybook/react': 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.7.3)
+      '@storybook/react': 8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.8.3)
       find-up: 5.0.0
       magic-string: 0.30.17
       react: 18.3.1
@@ -5324,7 +5324,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@storybook/react@8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.7.3)':
+  '@storybook/react@8.5.0(@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.5.0(prettier@2.8.8))(typescript@5.8.3)':
     dependencies:
       '@storybook/components': 8.5.0(storybook@8.5.0(prettier@2.8.8))
       '@storybook/global': 5.0.0
@@ -5337,7 +5337,7 @@ snapshots:
       storybook: 8.5.0(prettier@2.8.8)
     optionalDependencies:
       '@storybook/test': 8.5.0(storybook@8.5.0(prettier@2.8.8))
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   '@storybook/test@8.5.0(storybook@8.5.0(prettier@2.8.8))':
     dependencies:
@@ -7966,9 +7966,9 @@ snapshots:
       react: 18.3.1
       tween-functions: 1.2.0
 
-  react-docgen-typescript@2.2.2(typescript@5.7.3):
+  react-docgen-typescript@2.2.2(typescript@5.8.3):
     dependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   react-docgen@7.1.0:
     dependencies:
@@ -8507,9 +8507,9 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsconfck@3.1.4(typescript@5.7.3):
+  tsconfck@3.1.4(typescript@5.8.3):
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   tsconfig-paths@4.2.0:
     dependencies:
@@ -8532,7 +8532,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.7.3: {}
+  typescript@5.8.3: {}
 
   ufo@1.5.4: {}
 
@@ -8665,9 +8665,9 @@ snapshots:
       kleur: 4.1.5
       sade: 1.8.1
 
-  valibot@0.41.0(typescript@5.7.3):
+  valibot@0.41.0(typescript@5.8.3):
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.3
 
   validate-npm-package-license@3.0.4:
     dependencies:
@@ -8736,11 +8736,11 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.4(typescript@5.7.3)(vite@5.4.19(@types/node@22.13.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@5.4.19(@types/node@22.13.1)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
-      tsconfck: 3.1.4(typescript@5.7.3)
+      tsconfck: 3.1.4(typescript@5.8.3)
     optionalDependencies:
       vite: 5.4.19(@types/node@22.13.1)
     transitivePeerDependencies:
