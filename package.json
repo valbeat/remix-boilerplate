@@ -33,7 +33,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@chromatic-com/storybook": "^3.2.6",
+		"@chromatic-com/storybook": "^3.2.7",
 		"@remix-run/dev": "^2.15.2",
 		"@storybook/addon-actions": "^8.5.0",
 		"@storybook/addon-essentials": "^8.5.0",
