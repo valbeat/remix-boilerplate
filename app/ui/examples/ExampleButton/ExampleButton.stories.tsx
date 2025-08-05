@@ -1,5 +1,5 @@
-import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
+import { fn } from "@storybook/test";
 import { ExampleButton } from "./ExampleButton";
 
 const meta: Meta<typeof ExampleButton> = {
@@ -11,7 +11,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		onClick: action("clicked"),
+		onClick: fn(),
 		children: "Example Button",
 	},
 };
