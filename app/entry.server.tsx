@@ -21,8 +21,7 @@ export default function handleRequest(
 	remixContext: EntryContext,
 	// This is ignored so we can keep it in the template for visibility.  Feel
 	// free to delete this parameter in your app if you're not using it!
-	// biome-ignore lint/correctness/noUnusedVariables: template code
-	loadContext: AppLoadContext,
+	_loadContext: AppLoadContext,
 ) {
 	return isbot(request.headers.get("user-agent") || "")
 		? handleBotRequest(
