@@ -1,6 +1,5 @@
-import type { StorybookConfig } from "@storybook/react-vite";
-
 import { dirname, join } from "node:path";
+import type { StorybookConfig } from "@storybook/react-vite";
 
 // biome-ignore lint/suspicious/noExplicitAny: default code
 function getAbsolutePath(value: string): any {

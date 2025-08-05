@@ -12,11 +12,12 @@ jobs:
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
-      - name: ⎔ Corepack enable
-        run: corepack enable
-      - name: ⎔ Setup node
+      - name: 📦 Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: 🔧 Setup Node.js
         uses: actions/setup-node@v4
         with:
+          node-version-file: package.json
           cache: "pnpm"
       - name: 📥 Install
         run: pnpm i --frozen-lockfile
