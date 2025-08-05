@@ -1,5 +1,17 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+	"files": {
+		"includes": [
+			"**/app/**/*.ts",
+			"**/app/**/*.tsx",
+			"**/.storybook/**/*.ts",
+			"**/biome.json",
+			"**/package.json",
+			"**/tsconfig.json",
+			"**/*.config.ts",
+			"**/*.config.js"
+		]
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
