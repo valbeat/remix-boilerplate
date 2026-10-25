@@ -97,8 +97,8 @@ importers:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.23)
       happy-dom:
-        specifier: ^20.8.9
-        version: 20.8.9
+        specifier: ^21.0.4
+        version: 21.0.4
       lefthook:
         specifier: ^2.0.0
         version: 2.0.0
@@ -122,7 +122,7 @@ importers:
         version: 5.1.4(typescript@5.9.3)(vite@5.4.21(@types/node@24.9.1)(lightningcss@1.30.1))
       vitest:
         specifier: ^3.2.4
-        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@20.8.9)(lightningcss@1.30.1)
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@21.0.4)(lightningcss@1.30.1)
 
 packages:
 
@@ -1752,6 +1752,10 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
+  buffer-image-size@0.6.4:
+    resolution: {integrity: sha512-nEh+kZOPY1w+gcCMobZ6ETUp9WfibndnosbpwB1iJk/8Gt5ZF2bhS6+B6bPYz424KtwsR6Rflc3tCz1/ghX2dQ==}
+    engines: {node: '>=4.0'}
+
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
@@ -2354,8 +2358,8 @@ packages:
     resolution: {integrity: sha512-4haO1M4mLO91PW57BMsDFf75UmwoRX0GkdD+Faw+Lr+r/OZrOCS0pIBwOL1xCKQqnQzbNFGgK2V2CpBUPeFNTw==}
     hasBin: true
 
-  happy-dom@20.8.9:
-    resolution: {integrity: sha512-Tz23LR9T9jOGVZm2x1EPdXqwA37G/owYMxRwU0E4miurAtFsPMQ1d2Jc2okUaSjZqAFz2oEn3FLXC5a0a+siyA==}
+  happy-dom@21.0.4:
+    resolution: {integrity: sha512-tFm+GaLBgo6o0awHnvHaNoraVo27qJ+2tZEtZ+cIa08hXbeitrxAJajLI05hsUy/2/YTKcUjQYzHe5mCcraLBw==}
     engines: {node: '>=20.0.0'}
 
   has-flag@4.0.0:
@@ -5623,7 +5627,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@20.8.9)(lightningcss@1.30.1)
+      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@21.0.4)(lightningcss@1.30.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5691,7 +5695,7 @@ snapshots:
       sirv: 3.0.1
       tinyglobby: 0.2.14
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@20.8.9)(lightningcss@1.30.1)
+      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@21.0.4)(lightningcss@1.30.1)
 
   '@vitest/utils@2.0.5':
     dependencies:
@@ -5869,6 +5873,10 @@ snapshots:
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
 
   buffer-from@1.1.2: {}
+
+  buffer-image-size@0.6.4:
+    dependencies:
+      '@types/node': 24.9.1
 
   buffer@5.7.1:
     dependencies:
@@ -6511,11 +6519,12 @@ snapshots:
       pumpify: 1.5.1
       through2: 2.0.5
 
-  happy-dom@20.8.9:
+  happy-dom@21.0.4:
     dependencies:
       '@types/node': 24.9.1
       '@types/whatwg-mimetype': 3.0.2
       '@types/ws': 8.18.2
+      buffer-image-size: 0.6.4
       entities: 7.0.1
       whatwg-mimetype: 3.0.0
       ws: 8.22.0
@@ -8679,7 +8688,7 @@ snapshots:
       fsevents: 2.3.3
       lightningcss: 1.30.1
 
-  vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@20.8.9)(lightningcss@1.30.1):
+  vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.9.1)(@vitest/ui@3.2.4)(happy-dom@21.0.4)(lightningcss@1.30.1):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
@@ -8708,7 +8717,7 @@ snapshots:
       '@types/debug': 4.1.12
       '@types/node': 24.9.1
       '@vitest/ui': 3.2.4(vitest@3.2.4)
-      happy-dom: 20.8.9
+      happy-dom: 21.0.4
     transitivePeerDependencies:
       - less
       - lightningcss
