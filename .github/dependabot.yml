@@ -14,6 +14,12 @@ updates:
         applies-to: version-updates
         patterns:
         - "@remix-run/*"
+      # Security updates are not grouped by the version-updates group above.
+      # Keep @remix-run/* on the same version for security updates too.
+      remix-security:
+        applies-to: security-updates
+        patterns:
+        - "@remix-run/*"
       storybook:
         applies-to: version-updates
         patterns:
