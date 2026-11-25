@@ -1,5 +1,8 @@
+import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import type { StorybookConfig } from "@storybook/react-vite";
+
+const require = createRequire(import.meta.url);
 
 // biome-ignore lint/suspicious/noExplicitAny: default code
 function getAbsolutePath(value: string): any {
@@ -11,11 +14,7 @@ const config: StorybookConfig = {
 	addons: [
 		getAbsolutePath("@storybook/addon-onboarding"),
 		getAbsolutePath("@storybook/addon-links"),
-		getAbsolutePath("@storybook/addon-essentials"),
 		getAbsolutePath("@chromatic-com/storybook"),
-		getAbsolutePath("@storybook/addon-interactions"),
-		getAbsolutePath("@storybook/addon-mdx-gfm"),
-		getAbsolutePath("@storybook/addon-mdx-gfm"),
 	],
 	framework: {
 		name: getAbsolutePath("@storybook/react-vite"),
